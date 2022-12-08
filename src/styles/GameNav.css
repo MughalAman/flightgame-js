@@ -1,0 +1,46 @@
+.game-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+    box-shadow: 0 0 10px black;
+}
+
+.game-nav-money {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    font-size: 1.5em;
+    text-align: left;
+    color: #26be26;
+}
+
+.game-nav-country {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 33.3%;
+    font-size: 1.5em;
+}
+
+.game-nav-country img {
+    width: 2em;
+    height: 1em;
+}
+
+.game-nav-weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    font-size: 1.5em;
+    text-align: right;
+
+    color: aqua;
+}
