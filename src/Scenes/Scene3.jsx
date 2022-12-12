@@ -9,7 +9,7 @@ function Scene3() {
 
     const [lives, setLives] = useState(3)        
 
-    //wordlist of words to type 100 real words
+    //wordlist of words to type
     const [wordList, setWordList] = useState([])
     const [currentWord, setCurrentWord] = useState('')
 
@@ -18,8 +18,8 @@ function Scene3() {
 
         const filterWords = americanAll.filter(word => word.length > 3 && word.length < 8)
 
-
-        for (let i = 0; i < 45; i++) {
+        //Get 20 random words
+        for (let i = 0; i < 20; i++) {
             //no duplicates
             const randomWord = filterWords[Math.floor(Math.random() * filterWords.length)]
             if (!listOfWords.includes(randomWord)) {
