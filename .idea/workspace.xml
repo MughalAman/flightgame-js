@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/Scenes/airplanesky.jpg" beforeDir="false" />
+    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added end and start screens">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scenes/airplanesky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scenes/endgamescreen.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,19 @@
       <workItem from="1670504192286" duration="3000" />
       <workItem from="1670504666403" duration="102000" />
       <workItem from="1670579038301" duration="94000" />
+      <workItem from="1670957319839" duration="240000" />
+      <workItem from="1670957776031" duration="9000" />
+      <workItem from="1670957796399" duration="11000" />
+      <workItem from="1670958762834" duration="78000" />
+      <workItem from="1671025236840" duration="496000" />
     </task>
+    <task id="LOCAL−00001" summary="added end and start screens">
+      <created>1670957187019</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1670957187019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added end and start screens" />
+    <option name="LAST_COMMIT_MESSAGE" value="added end and start screens" />
   </component>
 </project>
