@@ -67,7 +67,7 @@
       <workItem from="1671025236840" duration="703000" />
       <workItem from="1671026180803" duration="1428000" />
       <workItem from="1671028316861" duration="71000" />
-      <workItem from="1671029056726" duration="1696000" />
+      <workItem from="1671029056726" duration="1792000" />
     </task>
     <task id="LOCAL−00001" summary="added end and start screens">
       <created>1670957187019</created>
@@ -87,7 +87,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1671031836211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="added music and logos">
+      <created>1671032512650</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1671032512650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
