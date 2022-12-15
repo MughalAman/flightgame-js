@@ -8,13 +8,14 @@ function Scene1() {
         <div className="scene1">
             <div className="scene1-text">
                 <p>
-                    Olet nuori sekä juuri valmistunut opiskelija, ja nyt on aika maksaa lainasi pois.
-                    Haluat nähdä maailmaa, ja olet asettanut ensimmäiseksi tavoitteeksi matkata ympäri Europpaa.
-                    Juuri valmistuneena sinulla ei ole ollenkaan rahaa, joten joudut tekemään rahasi eteen töitä.
-                    Olet 15000 euroa velkaa, ja voit kerätä rahaa matkustamisesi ohella.
-                    Mitä enemmän teet rahaa niin sitä parempi!
-                    Olet nyt Helsingissä ja aloitat keräämällä rahaa ensimmäiseen kohteeseesi.
-                    Onnea matkaan!!
+                    You are a young and freshly graduated student, and now it is time to pay your student loan back.
+                    You want to explore the world, and the first goal you have set for yourself is to travel around Europe.
+                    Since you are freshly graduated, you have no money. Since this is the case, you have to start working to earn some money.
+                    You have 15000 euros of unpaid loan. You can earn money while travelling.
+                    The more you earn the better!
+                    At the moment you are in Helsinki and here you will start earning money.
+                    Good luck on your travels!!
+
                 </p>
             </div>
 
