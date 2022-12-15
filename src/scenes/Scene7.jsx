@@ -30,7 +30,12 @@ function Scene7() {
         <div className="scene7">
             <div className="scene7-text">
                 <h2>
-                    
+                    Congratulations, Your student loan has been paid off! Now you can reap the rewards of your hard work.
+                    The stress of a big loan is gone and your questionably earned money can go to your own enjoyment.
+                    Perhaps you'd finally want to make your eternal dream of travelling the whole world true?
+
+                    To be continued.
+
                 </h2>
             </div>
         </div>
