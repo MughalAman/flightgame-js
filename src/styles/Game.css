@@ -95,7 +95,7 @@
 }
 
 .scene2-map {
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 2em;
     display: flex;
     justify-content: center;
@@ -103,10 +103,10 @@
 }
 
 .scene2-map img {
-    height: 20em;
-    width: 80%;
+    height: 600px;
+    width: 1200px;
 
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
     border-radius: 1em;
 }
@@ -322,4 +322,17 @@
 
 .scene5-game-circle:hover {
     cursor: pointer;
+}
+
+.scene6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    
+    text-align: center;
+
+    padding-left: 35%;
+    padding-right: 35%;
 }

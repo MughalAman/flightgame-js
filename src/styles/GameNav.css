@@ -15,7 +15,7 @@
     width: 33.3%;
     font-size: 1.5em;
     text-align: left;
-    color: #26be26;
+    color: #ff3b3b;
 }
 
 .game-nav-country {
@@ -42,5 +42,5 @@
     font-size: 1.5em;
     text-align: right;
 
-    color: aqua;
+    color: rgb(151, 255, 255);
 }

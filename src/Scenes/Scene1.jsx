@@ -20,7 +20,7 @@ function Scene1() {
             </div>
 
             <div className="scene1-door">
-                <button onClick={() => setGameState({...gameState, scene: 'scene2'})}>Enter</button>
+                <button onClick={() => setGameState({...gameState, scene: 'scene2', map_lat: '24.957996168', map_lon: '60.316998732', money: -15000, country_code: 'FI', country_name: 'Finland', temp_c: 20})}>Enter</button>
             </div>
         </div>
     )

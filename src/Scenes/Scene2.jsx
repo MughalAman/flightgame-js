@@ -1,13 +1,35 @@
-import {React, useContext} from 'react'
+import {React, useContext, useEffect, useState} from 'react'
 import {gameContext} from '../components/Context'
+import axios from 'axios'
 
 function Scene2() {
     const {gameState, setGameState} = useContext(gameContext)
+    const [map, setMap] = useState(' ')
+    const [countries, setCountries] = useState([])
 
-    const updateGameState = (country_code, country_name, cost) => {
-        if(gameState.money < cost) return alert('You do not have enough money to travel to this country')
+    const fetchData = async () => {
+        try {
 
-        setGameState({...gameState, scene: 'scene3', country_code: country_code, country_name: country_name, money: gameState.money - cost, distance: 5000})
+            const api_url = 'http://localhost:5000/';
+
+            const countriesResponse = await axios.get(api_url + 'countries/');
+            const mapResponse = await axios.get(api_url + `maps?start_lat=${gameState.map_lat}&start_lon=${gameState.map_lon}`);
+
+            setCountries(countriesResponse.data);
+            setMap(mapResponse.data);
+            
+        } catch (error) {
+            console.log(error);
+        }
+    };
+
+    useEffect(() => {
+        fetchData();
+
+    }, [])
+
+    const updateGameState = (country_code, country_name, cost, map_lat, map_lon) => {
+        setGameState({...gameState, scene: 'scene3', country_code: country_code, country_name: country_name, money: gameState.money - cost, distance: 5000, map_lat: map_lat, map_lon: map_lon})
     }
 
     return (
@@ -18,51 +40,25 @@ function Scene2() {
 
             <div className="scene2-countries">
 
-                <div className="scene2-country" onClick={() => updateGameState('US', 'United States', 900)}>
-                    <div className="scene2-country-left">
-                        <ul>
-                            <li>Country: United States</li>
-                            <li>Distance: 5000km</li>
-                            <li>Price: $1000</li>
-                        </ul>
+                {countries.map((country) => (
+                    <div className="scene2-country" onClick={() => updateGameState(country.country_code, country.country_name, country.price, country.coordinates.lat, country.coordinates.lon)}>
+                        <div className="scene2-country-left">
+                            <ul>
+                                <li key={country.country_name}>Country: {country.country_name}</li>
+                                <li>Distance: 5000km</li>
+                                <li key={country.price}>Price: ${country.price}</li>
+                            </ul>
+                        </div>
+                        <div className="scene2-country-right">
+                            <img src={`https://purecatamphetamine.github.io/country-flag-icons/3x2/${country.country_code}.svg`} alt={country.country_code}/>
+                        </div>
                     </div>
-                    <div className="scene2-country-right">
-                        <img src="https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg" alt=" "/>
-                    </div>
-                </div>
-
-                
-                <div className="scene2-country" onClick={() => updateGameState('FI', 'Finland', 300)}>
-                    <div className="scene2-country-left">
-                        <ul>
-                            <li>Country: Finland</li>
-                            <li>Distance: 5000km</li>
-                            <li>Price: $1000</li>
-                        </ul>
-                    </div>
-                    <div className="scene2-country-right">
-                        <img src="https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg" alt=" "/>
-                    </div>
-                </div>
-
-                
-                <div className="scene2-country" onClick={() => updateGameState('SE', 'Sweden', 100)}>
-                    <div className="scene2-country-left">
-                        <ul>
-                            <li>Country: Sweden</li>
-                            <li>Distance: 5000km</li>
-                            <li>Price: $1000</li>
-                        </ul>
-                    </div>
-                    <div className="scene2-country-right">
-                        <img src="https://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg" alt=" "/>
-                    </div>
-                </div>
+                ))}
 
             </div>
 
             <div className="scene2-map">
-                <img src="https://assets.website-files.com/5e832e12eb7ca02ee9064d42/5f7db426b676b95755fb2844_Group%20805.jpg" alt="map"/>
+                {map && <img src={map.map_source} alt="map"/>}
             </div>
 
         </div>
