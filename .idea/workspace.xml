@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added flying music">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added flying music" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1671117692809" duration="68000" />
       <workItem from="1671118274827" duration="741000" />
       <workItem from="1671119029720" duration="1227000" />
-      <workItem from="1671121766367" duration="887000" />
+      <workItem from="1671121766367" duration="1526000" />
     </task>
     <task id="LOCAL−00001" summary="added end and start screens">
       <created>1670957187019</created>
@@ -144,7 +142,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1671121865318</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="added flying music">
+      <created>1671122709255</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1671122709255</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
