@@ -9,11 +9,13 @@ import Scene2 from '../scenes/Scene2'
 import Scene3 from '../scenes/Scene3'
 import Scene4 from '../scenes/Scene4'
 import Scene5 from '../scenes/Scene5'
+import Scene6 from '../scenes/Scene6'
+import Scene7 from '../scenes/Scene7'
 
 
 
 function Game({playerName}) {
-    const [gameState, setGameState] = useState({scene: 'scene1', money: 1000, country_code: 'US', country_name: 'United States', temp_c: 20})
+    const [gameState, setGameState] = useState({scene: 'scene1', money: 1000, country_code: 'FI', country_name: 'Finland', temp_c: 20})
 
     //get keypresses
     document.addEventListener('keydown', (e) => {
@@ -66,6 +68,20 @@ function Game({playerName}) {
                 <div>
                     <GameNav/>
                     <Scene5/>
+                </div>
+            )}
+
+            {gameState.scene === 'scene6' && (
+                <div>
+                    <GameNav/>
+                    <Scene6/>
+                </div>
+            )}
+
+            {gameState.scene === 'scene7' && (
+                <div>
+                    <GameNav/>
+                    <Scene7/>
                 </div>
             )}
 
