@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added end music">
-      <change beforePath="$PROJECT_DIR$/src/Scenes/Scene7.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/Scene7.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,8 @@
       <workItem from="1671121766367" duration="5498000" />
       <workItem from="1671130350210" duration="132000" />
       <workItem from="1671133124581" duration="298000" />
-      <workItem from="1671140084712" duration="1251000" />
+      <workItem from="1671140084712" duration="2112000" />
+      <workItem from="1671144199427" duration="370000" />
     </task>
     <task id="LOCAL−00001" summary="added end and start screens">
       <created>1670957187019</created>
@@ -189,7 +190,19 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1671140713791</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="added end music">
+      <created>1671141499872</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1671141499872</updated>
+    </task>
+    <task id="LOCAL−00020" summary="added end music">
+      <created>1671141611853</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1671141611853</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
