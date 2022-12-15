@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added background for job minigame">
+    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added end music">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scenes/Scene1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/Scene1.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <workItem from="1671117692809" duration="68000" />
       <workItem from="1671118274827" duration="741000" />
       <workItem from="1671119029720" duration="1227000" />
-      <workItem from="1671121766367" duration="3440000" />
+      <workItem from="1671121766367" duration="4856000" />
     </task>
     <task id="LOCAL−00001" summary="added end and start screens">
       <created>1670957187019</created>
@@ -157,7 +156,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1671123564690</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="added end music">
+      <created>1671127306273</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1671127306273</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +186,7 @@
     <MESSAGE value="added door" />
     <MESSAGE value="added flying music" />
     <MESSAGE value="added background for job minigame" />
-    <option name="LAST_COMMIT_MESSAGE" value="added background for job minigame" />
+    <MESSAGE value="added end music" />
+    <option name="LAST_COMMIT_MESSAGE" value="added end music" />
   </component>
 </project>
