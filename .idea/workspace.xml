@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added flying music" />
+    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added flying music">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scenes/Scene1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenes/Scene1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/Goodjobs/goodjob1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/goodjobs/goodjob1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/Goodjobs/goodjob2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/goodjobs/goodjob2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/Goodjobs/goodjob3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/goodjobs/goodjob3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/badjobs/badjob1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/badjobs/badjob1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/badjobs/badjob2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/badjobs/badjob2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/badjobs/badjob3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/badjobs/badjob3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/flying.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/flying.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/lobbymusic.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/lobbymusic.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Music/start_game_logo_music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/start_game_logo_music.mp3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,18 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nakki\PycharmProjects\flightgame-js\src\assets\Music" />
@@ -70,6 +83,8 @@
       <workItem from="1671029056726" duration="1792000" />
       <workItem from="1671037200823" duration="1688000" />
       <workItem from="1671117208445" duration="94000" />
+      <workItem from="1671117692809" duration="68000" />
+      <workItem from="1671118274827" duration="741000" />
     </task>
     <task id="LOCAL−00001" summary="added end and start screens">
       <created>1670957187019</created>
@@ -119,7 +134,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1671117289683</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="added flying music">
+      <created>1671117695991</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1671117695991</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

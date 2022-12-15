@@ -8,9 +8,13 @@ function Scene1() {
         <div className="scene1">
             <div className="scene1-text">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid earum laboriosam sunt aperiam error reiciendis culpa dicta, maiores architecto ut, reprehenderit sed dolores! Sunt non quod excepturi cum asperiores et.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat id eum, omnis debitis exercitationem doloribus maxime voluptate cum, assumenda vero aperiam qui laboriosam. Fugiat asperiores doloribus quae laborum assumenda voluptatem!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est eaque illum explicabo libero, voluptates, dolorum itaque accusamus aliquid ducimus architecto repudiandae suscipit, quae adipisci eius! Dolor optio illo sit.
+                    Olet nuori sekä juuri valmistunut opiskelija, ja nyt on aika maksaa lainasi pois.
+                    Haluat nähdä maailmaa, ja olet asettanut ensimmäiseksi tavoitteeksi matkata ympäri Europpaa.
+                    Juuri valmistuneena sinulla ei ole ollenkaan rahaa, joten joudut tekemään rahasi eteen töitä.
+                    Olet 15000 euroa velkaa, ja voit kerätä rahaa matkustamisesi ohella.
+                    Mitä enemmän teet rahaa niin sitä parempi!
+                    Olet nyt Helsingissä ja aloitat keräämällä rahaa ensimmäiseen kohteeseesi.
+                    Onnea matkaan!!
                 </p>
             </div>
 
