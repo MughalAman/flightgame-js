@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added end music" />
+    <list default="true" id="4198f8a3-1713-4103-858b-050f70476bcf" name="Changes" comment="added end music">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +79,7 @@
       <workItem from="1671121766367" duration="5498000" />
       <workItem from="1671130350210" duration="132000" />
       <workItem from="1671133124581" duration="298000" />
+      <workItem from="1671140084712" duration="602000" />
     </task>
     <task id="LOCAL−00001" summary="added end and start screens">
       <created>1670957187019</created>
@@ -174,7 +177,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1671133132952</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="added end music">
+      <created>1671140140232</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1671140140232</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
