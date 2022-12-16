@@ -11,7 +11,7 @@ function Scene5() {
         
         if (gameState.job_is_bad === true) {
             circles.forEach(circle => {
-                circle.setAttribute('data-scale', parseFloat(circle.getAttribute('data-scale')) - 0.0010)
+                circle.setAttribute('data-scale', parseFloat(circle.getAttribute('data-scale')) - 0.0015)
                 circle.style.transform = `scale(${circle.getAttribute('data-scale')})`
             })
         }else {
@@ -110,8 +110,6 @@ function Scene5() {
         }
         return livesArray
     }
-
-
 
 
     return (

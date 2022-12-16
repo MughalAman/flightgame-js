@@ -3,7 +3,7 @@ import {gameContext} from '../components/Context'
 
 function Scene7() {
     const {gameState, setGameState} = useContext(gameContext)
-    const [timeRemaining, setTimeRemaining] = useState(10)
+    const [timeRemaining, setTimeRemaining] = useState(40)
 
 
     useEffect(() => {

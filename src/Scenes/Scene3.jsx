@@ -117,12 +117,13 @@ function Scene3() {
         return livesArray
     }
 
+
     return (
         <div className="scene3">
             <div className="scene3-content">
 
                 <div className="scene3-content-text">
-                    <h1>Distance remaining: {(gameState.distance - distance) < 0 ? 0 : gameState.distance - distance}</h1>
+                    <h1>Distance remaining: {(gameState.distance - distance) < 0 ? 0 : gameState.distance - distance} km</h1>
                     <h4>Lives: {renderLives()}</h4>
                 </div>
 
