@@ -25,8 +25,8 @@ import bad_job_music_4 from '/music/badjobs/badjob4.mp3'
 function AudioManager() {
     const {gameState, setGameState} = useContext(gameContext)
 
-    const getJobMusic = (is_bad) => {
-        if (is_bad === true) {
+    const getJobMusic = () => {
+        if (gameState.is_bad_job === true) {
             const rand = Math.floor(Math.random() * 4)
             if (rand === 0) {
                 return bad_job_music_1
@@ -73,7 +73,7 @@ function AudioManager() {
             case 'scene4':
                 return lobby_music
             case 'scene5':
-                return getJobMusic(gameState.is_bad_job)
+                return getJobMusic()
             case 'scene6':
                 return lobby_music
             case 'scene7':
